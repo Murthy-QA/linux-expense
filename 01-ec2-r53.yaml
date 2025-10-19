@@ -1,5 +1,6 @@
 - name: create ec2 and r53
-  hosts: 54.237.200.139
+  hosts: local
+  connection: local
   vars:
     ami_id: ami-09c813fb71547fc4f
     sg_id: sg-09d05de3115a66f58 # replace with your SG ID
